@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7DF709B24B82275000176DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF709A24B82275000176DA /* AppDelegate.swift */; };
+		C7DF709D24B82275000176DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF709C24B82275000176DA /* SceneDelegate.swift */; };
+		C7DF709F24B82275000176DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF709E24B82275000176DA /* ContentView.swift */; };
+		C7DF70A124B82277000176DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7DF70A024B82277000176DA /* Assets.xcassets */; };
+		C7DF70A424B82277000176DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7DF70A324B82277000176DA /* Preview Assets.xcassets */; };
+		C7DF70A724B82277000176DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DF70A524B82277000176DA /* LaunchScreen.storyboard */; };
+		C7DF70B224B82277000176DA /* SAFAUD_release_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF70B124B82277000176DA /* SAFAUD_release_Tests.swift */; };
+		C7DF70BD24B82277000176DA /* SAFAUD_release_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF70BC24B82277000176DA /* SAFAUD_release_UITests.swift */; };
+		C7DF70CB24B8235C000176DA /* Home View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF70CA24B8235C000176DA /* Home View.swift */; };
+		C7DF70CD24B82379000176DA /* graph view.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF70CC24B82379000176DA /* graph view.swift */; };
+		C7DF70CF24B82395000176DA /* month graph view.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF70CE24B82395000176DA /* month graph view.swift */; };
+		C7DF70D124B823CA000176DA /* Alarm view.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF70D024B823CA000176DA /* Alarm view.swift */; };
+		C7DF70D324B823E9000176DA /* Setting view.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF70D224B823E9000176DA /* Setting view.swift */; };
+		C7DF70D524B82409000176DA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF70D424B82409000176DA /* CircleImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7DF70AE24B82277000176DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7DF708F24B82275000176DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7DF709624B82275000176DA;
+			remoteInfo = "SAFAUD(release)";
+		};
+		C7DF70B924B82277000176DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7DF708F24B82275000176DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7DF709624B82275000176DA;
+			remoteInfo = "SAFAUD(release)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7DF709724B82275000176DA /* SAFAUD(release).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SAFAUD(release).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DF709A24B82275000176DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7DF709C24B82275000176DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7DF709E24B82275000176DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7DF70A024B82277000176DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7DF70A324B82277000176DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7DF70A624B82277000176DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7DF70A824B82277000176DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DF70AD24B82277000176DA /* SAFAUD(release)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SAFAUD(release)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DF70B124B82277000176DA /* SAFAUD_release_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAFAUD_release_Tests.swift; sourceTree = "<group>"; };
+		C7DF70B324B82277000176DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DF70B824B82277000176DA /* SAFAUD(release)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SAFAUD(release)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DF70BC24B82277000176DA /* SAFAUD_release_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAFAUD_release_UITests.swift; sourceTree = "<group>"; };
+		C7DF70BE24B82277000176DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DF70CA24B8235C000176DA /* Home View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home View.swift"; sourceTree = "<group>"; };
+		C7DF70CC24B82379000176DA /* graph view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "graph view.swift"; sourceTree = "<group>"; };
+		C7DF70CE24B82395000176DA /* month graph view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "month graph view.swift"; sourceTree = "<group>"; };
+		C7DF70D024B823CA000176DA /* Alarm view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alarm view.swift"; sourceTree = "<group>"; };
+		C7DF70D224B823E9000176DA /* Setting view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Setting view.swift"; sourceTree = "<group>"; };
+		C7DF70D424B82409000176DA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7DF709424B82275000176DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DF70AA24B82277000176DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DF70B524B82277000176DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7DF708E24B82275000176DA = {
+			isa = PBXGroup;
+			children = (
+				C7DF709924B82275000176DA /* SAFAUD(release) */,
+				C7DF70B024B82277000176DA /* SAFAUD(release)Tests */,
+				C7DF70BB24B82277000176DA /* SAFAUD(release)UITests */,
+				C7DF709824B82275000176DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7DF709824B82275000176DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7DF709724B82275000176DA /* SAFAUD(release).app */,
+				C7DF70AD24B82277000176DA /* SAFAUD(release)Tests.xctest */,
+				C7DF70B824B82277000176DA /* SAFAUD(release)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7DF709924B82275000176DA /* SAFAUD(release) */ = {
+			isa = PBXGroup;
+			children = (
+				C7DF709A24B82275000176DA /* AppDelegate.swift */,
+				C7DF709C24B82275000176DA /* SceneDelegate.swift */,
+				C7DF709E24B82275000176DA /* ContentView.swift */,
+				C7DF70CA24B8235C000176DA /* Home View.swift */,
+				C7DF70CC24B82379000176DA /* graph view.swift */,
+				C7DF70CE24B82395000176DA /* month graph view.swift */,
+				C7DF70D024B823CA000176DA /* Alarm view.swift */,
+				C7DF70D224B823E9000176DA /* Setting view.swift */,
+				C7DF70D424B82409000176DA /* CircleImage.swift */,
+				C7DF70A024B82277000176DA /* Assets.xcassets */,
+				C7DF70A524B82277000176DA /* LaunchScreen.storyboard */,
+				C7DF70A824B82277000176DA /* Info.plist */,
+				C7DF70A224B82277000176DA /* Preview Content */,
+			);
+			path = "SAFAUD(release)";
+			sourceTree = "<group>";
+		};
+		C7DF70A224B82277000176DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7DF70A324B82277000176DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7DF70B024B82277000176DA /* SAFAUD(release)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C7DF70B124B82277000176DA /* SAFAUD_release_Tests.swift */,
+				C7DF70B324B82277000176DA /* Info.plist */,
+			);
+			path = "SAFAUD(release)Tests";
+			sourceTree = "<group>";
+		};
+		C7DF70BB24B82277000176DA /* SAFAUD(release)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7DF70BC24B82277000176DA /* SAFAUD_release_UITests.swift */,
+				C7DF70BE24B82277000176DA /* Info.plist */,
+			);
+			path = "SAFAUD(release)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7DF709624B82275000176DA /* SAFAUD(release) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DF70C124B82277000176DA /* Build configuration list for PBXNativeTarget "SAFAUD(release)" */;
+			buildPhases = (
+				C7DF709324B82275000176DA /* Sources */,
+				C7DF709424B82275000176DA /* Frameworks */,
+				C7DF709524B82275000176DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SAFAUD(release)";
+			productName = "SAFAUD(release)";
+			productReference = C7DF709724B82275000176DA /* SAFAUD(release).app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7DF70AC24B82277000176DA /* SAFAUD(release)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DF70C424B82277000176DA /* Build configuration list for PBXNativeTarget "SAFAUD(release)Tests" */;
+			buildPhases = (
+				C7DF70A924B82277000176DA /* Sources */,
+				C7DF70AA24B82277000176DA /* Frameworks */,
+				C7DF70AB24B82277000176DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7DF70AF24B82277000176DA /* PBXTargetDependency */,
+			);
+			name = "SAFAUD(release)Tests";
+			productName = "SAFAUD(release)Tests";
+			productReference = C7DF70AD24B82277000176DA /* SAFAUD(release)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7DF70B724B82277000176DA /* SAFAUD(release)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DF70C724B82277000176DA /* Build configuration list for PBXNativeTarget "SAFAUD(release)UITests" */;
+			buildPhases = (
+				C7DF70B424B82277000176DA /* Sources */,
+				C7DF70B524B82277000176DA /* Frameworks */,
+				C7DF70B624B82277000176DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7DF70BA24B82277000176DA /* PBXTargetDependency */,
+			);
+			name = "SAFAUD(release)UITests";
+			productName = "SAFAUD(release)UITests";
+			productReference = C7DF70B824B82277000176DA /* SAFAUD(release)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7DF708F24B82275000176DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = gntech;
+				TargetAttributes = {
+					C7DF709624B82275000176DA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					C7DF70AC24B82277000176DA = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C7DF709624B82275000176DA;
+					};
+					C7DF70B724B82277000176DA = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C7DF709624B82275000176DA;
+					};
+				};
+			};
+			buildConfigurationList = C7DF709224B82275000176DA /* Build configuration list for PBXProject "SAFAUD(release)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7DF708E24B82275000176DA;
+			productRefGroup = C7DF709824B82275000176DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7DF709624B82275000176DA /* SAFAUD(release) */,
+				C7DF70AC24B82277000176DA /* SAFAUD(release)Tests */,
+				C7DF70B724B82277000176DA /* SAFAUD(release)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7DF709524B82275000176DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DF70A724B82277000176DA /* LaunchScreen.storyboard in Resources */,
+				C7DF70A424B82277000176DA /* Preview Assets.xcassets in Resources */,
+				C7DF70A124B82277000176DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DF70AB24B82277000176DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DF70B624B82277000176DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7DF709324B82275000176DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DF70CF24B82395000176DA /* month graph view.swift in Sources */,
+				C7DF709B24B82275000176DA /* AppDelegate.swift in Sources */,
+				C7DF70D124B823CA000176DA /* Alarm view.swift in Sources */,
+				C7DF70CD24B82379000176DA /* graph view.swift in Sources */,
+				C7DF709D24B82275000176DA /* SceneDelegate.swift in Sources */,
+				C7DF70D524B82409000176DA /* CircleImage.swift in Sources */,
+				C7DF70CB24B8235C000176DA /* Home View.swift in Sources */,
+				C7DF70D324B823E9000176DA /* Setting view.swift in Sources */,
+				C7DF709F24B82275000176DA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DF70A924B82277000176DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DF70B224B82277000176DA /* SAFAUD_release_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DF70B424B82277000176DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DF70BD24B82277000176DA /* SAFAUD_release_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7DF70AF24B82277000176DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7DF709624B82275000176DA /* SAFAUD(release) */;
+			targetProxy = C7DF70AE24B82277000176DA /* PBXContainerItemProxy */;
+		};
+		C7DF70BA24B82277000176DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7DF709624B82275000176DA /* SAFAUD(release) */;
+			targetProxy = C7DF70B924B82277000176DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7DF70A524B82277000176DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7DF70A624B82277000176DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7DF70BF24B82277000176DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7DF70C024B82277000176DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7DF70C224B82277000176DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SAFAUD(release)/Preview Content\"";
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SAFAUD(release)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gntech.SAFAUD-release-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7DF70C324B82277000176DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SAFAUD(release)/Preview Content\"";
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SAFAUD(release)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gntech.SAFAUD-release-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7DF70C524B82277000176DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				INFOPLIST_FILE = "SAFAUD(release)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gntech.SAFAUD-release-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAFAUD(release).app/SAFAUD(release)";
+			};
+			name = Debug;
+		};
+		C7DF70C624B82277000176DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				INFOPLIST_FILE = "SAFAUD(release)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gntech.SAFAUD-release-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAFAUD(release).app/SAFAUD(release)";
+			};
+			name = Release;
+		};
+		C7DF70C824B82277000176DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				INFOPLIST_FILE = "SAFAUD(release)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gntech.SAFAUD-release-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SAFAUD(release)";
+			};
+			name = Debug;
+		};
+		C7DF70C924B82277000176DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				INFOPLIST_FILE = "SAFAUD(release)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gntech.SAFAUD-release-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SAFAUD(release)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7DF709224B82275000176DA /* Build configuration list for PBXProject "SAFAUD(release)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DF70BF24B82277000176DA /* Debug */,
+				C7DF70C024B82277000176DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7DF70C124B82277000176DA /* Build configuration list for PBXNativeTarget "SAFAUD(release)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DF70C224B82277000176DA /* Debug */,
+				C7DF70C324B82277000176DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7DF70C424B82277000176DA /* Build configuration list for PBXNativeTarget "SAFAUD(release)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DF70C524B82277000176DA /* Debug */,
+				C7DF70C624B82277000176DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7DF70C724B82277000176DA /* Build configuration list for PBXNativeTarget "SAFAUD(release)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DF70C824B82277000176DA /* Debug */,
+				C7DF70C924B82277000176DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7DF708F24B82275000176DA /* Project object */;
+}
