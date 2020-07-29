@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7E4AC812485E8C8008BDD7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4AC802485E8C8008BDD7E /* AppDelegate.swift */; };
+		C7E4AC832485E8C8008BDD7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4AC822485E8C8008BDD7E /* SceneDelegate.swift */; };
+		C7E4AC852485E8C8008BDD7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4AC842485E8C8008BDD7E /* ContentView.swift */; };
+		C7E4AC872485E8CD008BDD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E4AC862485E8CD008BDD7E /* Assets.xcassets */; };
+		C7E4AC8A2485E8CD008BDD7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E4AC892485E8CD008BDD7E /* Preview Assets.xcassets */; };
+		C7E4AC8D2485E8CD008BDD7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E4AC8B2485E8CD008BDD7E /* LaunchScreen.storyboard */; };
+		C7E4AC982485E8CD008BDD7E /* self_diagnose2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4AC972485E8CD008BDD7E /* self_diagnose2Tests.swift */; };
+		C7E4ACA32485E8CD008BDD7E /* self_diagnose2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACA22485E8CD008BDD7E /* self_diagnose2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7E4AC942485E8CD008BDD7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E4AC752485E8C8008BDD7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E4AC7C2485E8C8008BDD7E;
+			remoteInfo = "self diagnose2";
+		};
+		C7E4AC9F2485E8CD008BDD7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E4AC752485E8C8008BDD7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E4AC7C2485E8C8008BDD7E;
+			remoteInfo = "self diagnose2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7E4AC7D2485E8C8008BDD7E /* self diagnose radio button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "self diagnose radio button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E4AC802485E8C8008BDD7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7E4AC822485E8C8008BDD7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7E4AC842485E8C8008BDD7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7E4AC862485E8CD008BDD7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7E4AC892485E8CD008BDD7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7E4AC8C2485E8CD008BDD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7E4AC8E2485E8CD008BDD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E4AC932485E8CD008BDD7E /* self diagnose radio buttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "self diagnose radio buttonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E4AC972485E8CD008BDD7E /* self_diagnose2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = self_diagnose2Tests.swift; sourceTree = "<group>"; };
+		C7E4AC992485E8CD008BDD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E4AC9E2485E8CD008BDD7E /* self diagnose radio buttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "self diagnose radio buttonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E4ACA22485E8CD008BDD7E /* self_diagnose2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = self_diagnose2UITests.swift; sourceTree = "<group>"; };
+		C7E4ACA42485E8CD008BDD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7E4AC7A2485E8C8008BDD7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E4AC902485E8CD008BDD7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E4AC9B2485E8CD008BDD7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7E4AC742485E8C8008BDD7E = {
+			isa = PBXGroup;
+			children = (
+				C7E4AC7F2485E8C8008BDD7E /* self diagnose2 */,
+				C7E4AC962485E8CD008BDD7E /* self diagnose2Tests */,
+				C7E4ACA12485E8CD008BDD7E /* self diagnose2UITests */,
+				C7E4AC7E2485E8C8008BDD7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7E4AC7E2485E8C8008BDD7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4AC7D2485E8C8008BDD7E /* self diagnose radio button.app */,
+				C7E4AC932485E8CD008BDD7E /* self diagnose radio buttonTests.xctest */,
+				C7E4AC9E2485E8CD008BDD7E /* self diagnose radio buttonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7E4AC7F2485E8C8008BDD7E /* self diagnose2 */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4AC802485E8C8008BDD7E /* AppDelegate.swift */,
+				C7E4AC822485E8C8008BDD7E /* SceneDelegate.swift */,
+				C7E4AC842485E8C8008BDD7E /* ContentView.swift */,
+				C7E4AC862485E8CD008BDD7E /* Assets.xcassets */,
+				C7E4AC8B2485E8CD008BDD7E /* LaunchScreen.storyboard */,
+				C7E4AC8E2485E8CD008BDD7E /* Info.plist */,
+				C7E4AC882485E8CD008BDD7E /* Preview Content */,
+			);
+			path = "self diagnose2";
+			sourceTree = "<group>";
+		};
+		C7E4AC882485E8CD008BDD7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4AC892485E8CD008BDD7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7E4AC962485E8CD008BDD7E /* self diagnose2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4AC972485E8CD008BDD7E /* self_diagnose2Tests.swift */,
+				C7E4AC992485E8CD008BDD7E /* Info.plist */,
+			);
+			path = "self diagnose2Tests";
+			sourceTree = "<group>";
+		};
+		C7E4ACA12485E8CD008BDD7E /* self diagnose2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4ACA22485E8CD008BDD7E /* self_diagnose2UITests.swift */,
+				C7E4ACA42485E8CD008BDD7E /* Info.plist */,
+			);
+			path = "self diagnose2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7E4AC7C2485E8C8008BDD7E /* self diagnose radio button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E4ACA72485E8CD008BDD7E /* Build configuration list for PBXNativeTarget "self diagnose radio button" */;
+			buildPhases = (
+				C7E4AC792485E8C8008BDD7E /* Sources */,
+				C7E4AC7A2485E8C8008BDD7E /* Frameworks */,
+				C7E4AC7B2485E8C8008BDD7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "self diagnose radio button";
+			productName = "self diagnose2";
+			productReference = C7E4AC7D2485E8C8008BDD7E /* self diagnose radio button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7E4AC922485E8CD008BDD7E /* self diagnose radio buttonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E4ACAA2485E8CD008BDD7E /* Build configuration list for PBXNativeTarget "self diagnose radio buttonTests" */;
+			buildPhases = (
+				C7E4AC8F2485E8CD008BDD7E /* Sources */,
+				C7E4AC902485E8CD008BDD7E /* Frameworks */,
+				C7E4AC912485E8CD008BDD7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E4AC952485E8CD008BDD7E /* PBXTargetDependency */,
+			);
+			name = "self diagnose radio buttonTests";
+			productName = "self diagnose2Tests";
+			productReference = C7E4AC932485E8CD008BDD7E /* self diagnose radio buttonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7E4AC9D2485E8CD008BDD7E /* self diagnose radio buttonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E4ACAD2485E8CD008BDD7E /* Build configuration list for PBXNativeTarget "self diagnose radio buttonUITests" */;
+			buildPhases = (
+				C7E4AC9A2485E8CD008BDD7E /* Sources */,
+				C7E4AC9B2485E8CD008BDD7E /* Frameworks */,
+				C7E4AC9C2485E8CD008BDD7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E4ACA02485E8CD008BDD7E /* PBXTargetDependency */,
+			);
+			name = "self diagnose radio buttonUITests";
+			productName = "self diagnose2UITests";
+			productReference = C7E4AC9E2485E8CD008BDD7E /* self diagnose radio buttonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7E4AC752485E8C8008BDD7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = gntech;
+				TargetAttributes = {
+					C7E4AC7C2485E8C8008BDD7E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					C7E4AC922485E8CD008BDD7E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C7E4AC7C2485E8C8008BDD7E;
+					};
+					C7E4AC9D2485E8CD008BDD7E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C7E4AC7C2485E8C8008BDD7E;
+					};
+				};
+			};
+			buildConfigurationList = C7E4AC782485E8C8008BDD7E /* Build configuration list for PBXProject "self diagnose radio button" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7E4AC742485E8C8008BDD7E;
+			productRefGroup = C7E4AC7E2485E8C8008BDD7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7E4AC7C2485E8C8008BDD7E /* self diagnose radio button */,
+				C7E4AC922485E8CD008BDD7E /* self diagnose radio buttonTests */,
+				C7E4AC9D2485E8CD008BDD7E /* self diagnose radio buttonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7E4AC7B2485E8C8008BDD7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E4AC8D2485E8CD008BDD7E /* LaunchScreen.storyboard in Resources */,
+				C7E4AC8A2485E8CD008BDD7E /* Preview Assets.xcassets in Resources */,
+				C7E4AC872485E8CD008BDD7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E4AC912485E8CD008BDD7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E4AC9C2485E8CD008BDD7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7E4AC792485E8C8008BDD7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E4AC812485E8C8008BDD7E /* AppDelegate.swift in Sources */,
+				C7E4AC832485E8C8008BDD7E /* SceneDelegate.swift in Sources */,
+				C7E4AC852485E8C8008BDD7E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E4AC8F2485E8CD008BDD7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E4AC982485E8CD008BDD7E /* self_diagnose2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E4AC9A2485E8CD008BDD7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E4ACA32485E8CD008BDD7E /* self_diagnose2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7E4AC952485E8CD008BDD7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E4AC7C2485E8C8008BDD7E /* self diagnose radio button */;
+			targetProxy = C7E4AC942485E8CD008BDD7E /* PBXContainerItemProxy */;
+		};
+		C7E4ACA02485E8CD008BDD7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E4AC7C2485E8C8008BDD7E /* self diagnose radio button */;
+			targetProxy = C7E4AC9F2485E8CD008BDD7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7E4AC8B2485E8CD008BDD7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7E4AC8C2485E8CD008BDD7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7E4ACA52485E8CD008BDD7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7E4ACA62485E8CD008BDD7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7E4ACA82485E8CD008BDD7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"self diagnose2/Preview Content\"";
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "self diagnose2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gntech.self-diagnose2";
+				PRODUCT_NAME = "self diagnose radio button";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7E4ACA92485E8CD008BDD7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"self diagnose2/Preview Content\"";
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "self diagnose2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gntech.self-diagnose2";
+				PRODUCT_NAME = "self diagnose radio button";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7E4ACAB2485E8CD008BDD7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				INFOPLIST_FILE = "self diagnose2Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gntech.self-diagnose2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/self diagnose radio button.app/self diagnose radio button";
+			};
+			name = Debug;
+		};
+		C7E4ACAC2485E8CD008BDD7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				INFOPLIST_FILE = "self diagnose2Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gntech.self-diagnose2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/self diagnose radio button.app/self diagnose radio button";
+			};
+			name = Release;
+		};
+		C7E4ACAE2485E8CD008BDD7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				INFOPLIST_FILE = "self diagnose2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gntech.self-diagnose2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "self diagnose2";
+			};
+			name = Debug;
+		};
+		C7E4ACAF2485E8CD008BDD7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				INFOPLIST_FILE = "self diagnose2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gntech.self-diagnose2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "self diagnose2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7E4AC782485E8C8008BDD7E /* Build configuration list for PBXProject "self diagnose radio button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E4ACA52485E8CD008BDD7E /* Debug */,
+				C7E4ACA62485E8CD008BDD7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E4ACA72485E8CD008BDD7E /* Build configuration list for PBXNativeTarget "self diagnose radio button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E4ACA82485E8CD008BDD7E /* Debug */,
+				C7E4ACA92485E8CD008BDD7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E4ACAA2485E8CD008BDD7E /* Build configuration list for PBXNativeTarget "self diagnose radio buttonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E4ACAB2485E8CD008BDD7E /* Debug */,
+				C7E4ACAC2485E8CD008BDD7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E4ACAD2485E8CD008BDD7E /* Build configuration list for PBXNativeTarget "self diagnose radio buttonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E4ACAE2485E8CD008BDD7E /* Debug */,
+				C7E4ACAF2485E8CD008BDD7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7E4AC752485E8C8008BDD7E /* Project object */;
+}

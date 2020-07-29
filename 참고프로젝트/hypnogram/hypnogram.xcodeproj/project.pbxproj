@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7E4ACBD24B5558C008BDD7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACBC24B5558C008BDD7E /* AppDelegate.swift */; };
+		C7E4ACBF24B5558C008BDD7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACBE24B5558C008BDD7E /* SceneDelegate.swift */; };
+		C7E4ACC124B5558C008BDD7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACC024B5558C008BDD7E /* ContentView.swift */; };
+		C7E4ACC324B55591008BDD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACC224B55591008BDD7E /* Assets.xcassets */; };
+		C7E4ACC624B55591008BDD7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACC524B55591008BDD7E /* Preview Assets.xcassets */; };
+		C7E4ACC924B55591008BDD7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E4ACC724B55591008BDD7E /* LaunchScreen.storyboard */; };
+		C7E4ACD424B55592008BDD7E /* hypnogramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACD324B55592008BDD7E /* hypnogramTests.swift */; };
+		C7E4ACDF24B55592008BDD7E /* hypnogramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4ACDE24B55592008BDD7E /* hypnogramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7E4ACD024B55591008BDD7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E4ACB124B5558C008BDD7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E4ACB824B5558C008BDD7E;
+			remoteInfo = hypnogram;
+		};
+		C7E4ACDB24B55592008BDD7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E4ACB124B5558C008BDD7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E4ACB824B5558C008BDD7E;
+			remoteInfo = hypnogram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7E4ACB924B5558C008BDD7E /* hypnogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hypnogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E4ACBC24B5558C008BDD7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7E4ACBE24B5558C008BDD7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7E4ACC024B5558C008BDD7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7E4ACC224B55591008BDD7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7E4ACC524B55591008BDD7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7E4ACC824B55591008BDD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7E4ACCA24B55591008BDD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E4ACCF24B55591008BDD7E /* hypnogramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hypnogramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E4ACD324B55592008BDD7E /* hypnogramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hypnogramTests.swift; sourceTree = "<group>"; };
+		C7E4ACD524B55592008BDD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E4ACDA24B55592008BDD7E /* hypnogramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hypnogramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E4ACDE24B55592008BDD7E /* hypnogramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hypnogramUITests.swift; sourceTree = "<group>"; };
+		C7E4ACE024B55592008BDD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7E4ACB624B5558C008BDD7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E4ACCC24B55591008BDD7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E4ACD724B55592008BDD7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7E4ACB024B5558C008BDD7E = {
+			isa = PBXGroup;
+			children = (
+				C7E4ACBB24B5558C008BDD7E /* hypnogram */,
+				C7E4ACD224B55592008BDD7E /* hypnogramTests */,
+				C7E4ACDD24B55592008BDD7E /* hypnogramUITests */,
+				C7E4ACBA24B5558C008BDD7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7E4ACBA24B5558C008BDD7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4ACB924B5558C008BDD7E /* hypnogram.app */,
+				C7E4ACCF24B55591008BDD7E /* hypnogramTests.xctest */,
+				C7E4ACDA24B55592008BDD7E /* hypnogramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7E4ACBB24B5558C008BDD7E /* hypnogram */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4ACBC24B5558C008BDD7E /* AppDelegate.swift */,
+				C7E4ACBE24B5558C008BDD7E /* SceneDelegate.swift */,
+				C7E4ACC024B5558C008BDD7E /* ContentView.swift */,
+				C7E4ACC224B55591008BDD7E /* Assets.xcassets */,
+				C7E4ACC724B55591008BDD7E /* LaunchScreen.storyboard */,
+				C7E4ACCA24B55591008BDD7E /* Info.plist */,
+				C7E4ACC424B55591008BDD7E /* Preview Content */,
+			);
+			path = hypnogram;
+			sourceTree = "<group>";
+		};
+		C7E4ACC424B55591008BDD7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4ACC524B55591008BDD7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7E4ACD224B55592008BDD7E /* hypnogramTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4ACD324B55592008BDD7E /* hypnogramTests.swift */,
+				C7E4ACD524B55592008BDD7E /* Info.plist */,
+			);
+			path = hypnogramTests;
+			sourceTree = "<group>";
+		};
+		C7E4ACDD24B55592008BDD7E /* hypnogramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4ACDE24B55592008BDD7E /* hypnogramUITests.swift */,
+				C7E4ACE024B55592008BDD7E /* Info.plist */,
+			);
+			path = hypnogramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7E4ACB824B5558C008BDD7E /* hypnogram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E4ACE324B55592008BDD7E /* Build configuration list for PBXNativeTarget "hypnogram" */;
+			buildPhases = (
+				C7E4ACB524B5558C008BDD7E /* Sources */,
+				C7E4ACB624B5558C008BDD7E /* Frameworks */,
+				C7E4ACB724B5558C008BDD7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hypnogram;
+			productName = hypnogram;
+			productReference = C7E4ACB924B5558C008BDD7E /* hypnogram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7E4ACCE24B55591008BDD7E /* hypnogramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E4ACE624B55592008BDD7E /* Build configuration list for PBXNativeTarget "hypnogramTests" */;
+			buildPhases = (
+				C7E4ACCB24B55591008BDD7E /* Sources */,
+				C7E4ACCC24B55591008BDD7E /* Frameworks */,
+				C7E4ACCD24B55591008BDD7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E4ACD124B55591008BDD7E /* PBXTargetDependency */,
+			);
+			name = hypnogramTests;
+			productName = hypnogramTests;
+			productReference = C7E4ACCF24B55591008BDD7E /* hypnogramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7E4ACD924B55592008BDD7E /* hypnogramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E4ACE924B55592008BDD7E /* Build configuration list for PBXNativeTarget "hypnogramUITests" */;
+			buildPhases = (
+				C7E4ACD624B55592008BDD7E /* Sources */,
+				C7E4ACD724B55592008BDD7E /* Frameworks */,
+				C7E4ACD824B55592008BDD7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E4ACDC24B55592008BDD7E /* PBXTargetDependency */,
+			);
+			name = hypnogramUITests;
+			productName = hypnogramUITests;
+			productReference = C7E4ACDA24B55592008BDD7E /* hypnogramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7E4ACB124B5558C008BDD7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = gntech;
+				TargetAttributes = {
+					C7E4ACB824B5558C008BDD7E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					C7E4ACCE24B55591008BDD7E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C7E4ACB824B5558C008BDD7E;
+					};
+					C7E4ACD924B55592008BDD7E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C7E4ACB824B5558C008BDD7E;
+					};
+				};
+			};
+			buildConfigurationList = C7E4ACB424B5558C008BDD7E /* Build configuration list for PBXProject "hypnogram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7E4ACB024B5558C008BDD7E;
+			productRefGroup = C7E4ACBA24B5558C008BDD7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7E4ACB824B5558C008BDD7E /* hypnogram */,
+				C7E4ACCE24B55591008BDD7E /* hypnogramTests */,
+				C7E4ACD924B55592008BDD7E /* hypnogramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7E4ACB724B5558C008BDD7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E4ACC924B55591008BDD7E /* LaunchScreen.storyboard in Resources */,
+				C7E4ACC624B55591008BDD7E /* Preview Assets.xcassets in Resources */,
+				C7E4ACC324B55591008BDD7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E4ACCD24B55591008BDD7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E4ACD824B55592008BDD7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7E4ACB524B5558C008BDD7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E4ACBD24B5558C008BDD7E /* AppDelegate.swift in Sources */,
+				C7E4ACBF24B5558C008BDD7E /* SceneDelegate.swift in Sources */,
+				C7E4ACC124B5558C008BDD7E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E4ACCB24B55591008BDD7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E4ACD424B55592008BDD7E /* hypnogramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E4ACD624B55592008BDD7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E4ACDF24B55592008BDD7E /* hypnogramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7E4ACD124B55591008BDD7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E4ACB824B5558C008BDD7E /* hypnogram */;
+			targetProxy = C7E4ACD024B55591008BDD7E /* PBXContainerItemProxy */;
+		};
+		C7E4ACDC24B55592008BDD7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E4ACB824B5558C008BDD7E /* hypnogram */;
+			targetProxy = C7E4ACDB24B55592008BDD7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7E4ACC724B55591008BDD7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7E4ACC824B55591008BDD7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7E4ACE124B55592008BDD7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7E4ACE224B55592008BDD7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7E4ACE424B55592008BDD7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"hypnogram/Preview Content\"";
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = hypnogram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gntech.hypnogram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7E4ACE524B55592008BDD7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"hypnogram/Preview Content\"";
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = hypnogram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gntech.hypnogram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7E4ACE724B55592008BDD7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				INFOPLIST_FILE = hypnogramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gntech.hypnogramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hypnogram.app/hypnogram";
+			};
+			name = Debug;
+		};
+		C7E4ACE824B55592008BDD7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				INFOPLIST_FILE = hypnogramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gntech.hypnogramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hypnogram.app/hypnogram";
+			};
+			name = Release;
+		};
+		C7E4ACEA24B55592008BDD7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				INFOPLIST_FILE = hypnogramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gntech.hypnogramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hypnogram;
+			};
+			name = Debug;
+		};
+		C7E4ACEB24B55592008BDD7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8PR3R9Y9B;
+				INFOPLIST_FILE = hypnogramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gntech.hypnogramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hypnogram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7E4ACB424B5558C008BDD7E /* Build configuration list for PBXProject "hypnogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E4ACE124B55592008BDD7E /* Debug */,
+				C7E4ACE224B55592008BDD7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E4ACE324B55592008BDD7E /* Build configuration list for PBXNativeTarget "hypnogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E4ACE424B55592008BDD7E /* Debug */,
+				C7E4ACE524B55592008BDD7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E4ACE624B55592008BDD7E /* Build configuration list for PBXNativeTarget "hypnogramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E4ACE724B55592008BDD7E /* Debug */,
+				C7E4ACE824B55592008BDD7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E4ACE924B55592008BDD7E /* Build configuration list for PBXNativeTarget "hypnogramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E4ACEA24B55592008BDD7E /* Debug */,
+				C7E4ACEB24B55592008BDD7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7E4ACB124B5558C008BDD7E /* Project object */;
+}
