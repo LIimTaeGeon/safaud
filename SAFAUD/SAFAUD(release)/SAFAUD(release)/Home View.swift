@@ -47,19 +47,20 @@ struct Home_view: View {
                     }
                 }
                 CircleImage()
-                Text("수면 자가평가 점수 "+"\(average)").offset(y:25).font(.system(size: 25))
-                Text("생리검사 점수 "+"\(secondaverage)").offset(y:25).font(.system(size: 25))
+                Text("KESS 엡워스 졸음 척도 점수 "+"\(average)").offset(y:25).font(.system(size: 25))
+                Text("PSQL-K 피츠버그 수면의 질 척도 점수 "+"\(secondaverage)").offset(y:25).font(.system(size: 25))
                 VStack {
                     VStack {
                         Button(action: {
                             self.selfdiagnose = true
                         }) {
-                            Text("수면 자가평가").font(.largeTitle).fontWeight(.bold).foregroundColor(.black)
+                            Text("KESS 엡워스 졸음 척도").font(.system(size: 30)).fontWeight(.bold).foregroundColor(.black)
                         }.offset(y:100)
                         
                         Button(action: {
                             self.selfdiagnose2 = true
-                        }) { Text("생리학검사").font(.largeTitle).fontWeight(.bold).foregroundColor(.black)
+                        }) {
+                            Text("PSQL-K 피츠버그 수면의 질 척도").font(.system(size: 30)).fontWeight(.bold).foregroundColor(.black)
                         }.offset(y:110)
                         if $selfdiagnose.wrappedValue {
                             ZStack {

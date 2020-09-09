@@ -17,6 +17,12 @@ struct Setting_view: View {
     @State private var showalert = false
     @State private var samepassword = false
     @State private var value : CGFloat = 0
+    @State private var ID = "safaud"
+    @State private var IDcheck = ""
+    @State private var passwordcheck = ""
+    @State private var logout = false
+    @State private var login = false
+    @State private var showloginalert = false
     
     var body: some View {
         VStack {
@@ -55,9 +61,18 @@ struct Setting_view: View {
                             .foregroundColor(Color.gray)
                     }
                 }
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                if(self.logout == false)
+                {
+                    Button(action: {
+                        self.logout = true
+                    }) {
+                        Text("로그아웃")
+                            .foregroundColor(Color.red).offset(x:150)
+                    }
+                }
+                else {
                     Text("로그아웃")
-                        .foregroundColor(Color.red).offset(x:150)
+                    .foregroundColor(Color.gray).offset(x:150)
                 }
             }
             if $passwordchange.wrappedValue {
@@ -122,6 +137,50 @@ struct Setting_view: View {
                         }
                     }.padding(.vertical,15)
                 }.frame(width: 400, height: 170).cornerRadius(20).shadow(radius: 20).offset(y: -self.value).animation(.spring()).onAppear {
+                    NotificationCenter.default.addObserver(forName: UIResponder.keyboardWillShowNotification, object: nil, queue: .main) {
+                        (noti) in
+                        let value = noti.userInfo![UIResponder.keyboardFrameEndUserInfoKey] as! CGRect
+                        let height = value.height
+                        self.value = height
+                    }
+                    NotificationCenter.default.addObserver(forName: UIResponder.keyboardWillHideNotification, object: nil, queue: .main) {
+                        (noti) in
+                        
+                        self.value = 0
+                    }
+                }
+            }
+            if $logout.wrappedValue {
+                ZStack{
+                    VStack{
+                        HStack{
+                            VStack{
+                                Spacer()
+                                TextField("ID", text: $IDcheck).font(.system(size: 15)).frame(width:180, height: 15).textFieldStyle(RoundedBorderTextFieldStyle()).autocapitalization(.none)
+                                Spacer()
+                                SecureField("password", text: $passwordcheck).font(.system(size: 15)).frame(width:180, height: 15).textFieldStyle(RoundedBorderTextFieldStyle()).autocapitalization(.none)
+                                Spacer()
+                            }
+                            Button(action: {
+                                if((self.ID == self.IDcheck) && (self.currentpassword == self.passwordcheck))
+                                {
+                                    self.logout = false
+                                    self.IDcheck = ""
+                                    self.passwordcheck = ""
+                                    self.showloginalert = false
+                                }
+                                else{
+                                    self.showloginalert = true
+                                }
+                            }, label: {
+                                Text("로그인").font(.system(size: 16))
+                            })
+                        }
+                        if $showloginalert.wrappedValue{
+                            Text("아이디와 비밀번호가 일치하지 않습니다. \n(아이디와 비밀번호는 대소문자를 구분합니다.)").foregroundColor(Color(#colorLiteral(red: 1, green: 0, blue: 0, alpha: 1))).bold().font(.system(size: 15))
+                        }
+                    }
+                }.frame(width: 400, height: 130).cornerRadius(20).shadow(radius: 20).offset(y: -self.value).animation(.spring()).onAppear {
                     NotificationCenter.default.addObserver(forName: UIResponder.keyboardWillShowNotification, object: nil, queue: .main) {
                         (noti) in
                         let value = noti.userInfo![UIResponder.keyboardFrameEndUserInfoKey] as! CGRect
